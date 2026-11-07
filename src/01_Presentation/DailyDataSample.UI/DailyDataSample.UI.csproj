@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net48</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<RootNamespace>DailyDataSample.UI</RootNamespace>
+	<AssemblyName>DailyDataSample.UI</AssemblyName>
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System.Configuration" />
+	<ProjectReference Include="..\..\02_Business\DailyDataSample.BLL\DailyDataSample.BLL.csproj" />
+	<ProjectReference Include="..\..\04_Common\DailyDataSample.Core\DailyDataSample.Core.csproj" />
+  </ItemGroup>
+</Project>

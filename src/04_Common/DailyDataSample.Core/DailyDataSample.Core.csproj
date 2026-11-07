@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFramework>net48</TargetFramework>
+	<RootNamespace>DailyDataSample.Core</RootNamespace>
+	<AssemblyName>DailyDataSample.Core</AssemblyName>
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFramework>net48</TargetFramework>
+	<RootNamespace>DailyDataSample.BLL</RootNamespace>
+	<AssemblyName>DailyDataSample.BLL</AssemblyName>
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+	<ProjectReference Include="..\..\03_DataAccess\DailyDataSample.DAL\DailyDataSample.DAL.csproj" />
+	<ProjectReference Include="..\..\04_Common\DailyDataSample.Core\DailyDataSample.Core.csproj" />
+  </ItemGroup>
+</Project>

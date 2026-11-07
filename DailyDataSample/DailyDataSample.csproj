@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net48</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<RootNamespace>DailyDataSample</RootNamespace>
+	<AssemblyName>DailyDataSample</AssemblyName>
+	<LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>

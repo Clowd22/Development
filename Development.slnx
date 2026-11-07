@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BASE/BASE.vbproj" Id="49c992fb-0b43-4b14-a63f-783a04dff527" />
+  <Project Path="DailyDataSample/DailyDataSample.csproj" />
+</Solution>
